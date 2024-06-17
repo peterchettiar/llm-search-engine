@@ -2,7 +2,9 @@
 
 As the title suggests, this repo captures the content as well as code walkthrough from the workshop conducted by [datatalks.club](https://datatalks.club/). This session is more of a taster into the actual course [llm-zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) for those interested in Large Language Models (LLMs). Enough chit-chat, let's dive into the content and the video link for the workshop is [here](https://www.youtube.com/watch?v=nMrGK5QgPVE).
 
-## Introduction to LLM and RAG
+## 1. Introduction to LLM and RAG
+
+**1.1 LLM**
 
 LLM stands for Large Language Models, and Generative Pre-Trained Transformers or simply GPTs are an example of a LLM. And yes, OpenAI's flagship product the ChatGPT-3/4 is an example of a LLM. So what exactly is an LLM?
 
@@ -20,3 +22,6 @@ So how do they work? - LLMs can be said to be made of three things:
 The image above is a good representation of how the ChatGPT-3 operates; you input a prompt and having gone through the transformer process, it gives a text response as well. The key concept here is to understand how the transformer architecture works but that is not the main objective for today. Hence, read this [article](https://www.datacamp.com/tutorial/how-transformers-work) to understand more about the transformer architecture in detail.
 
 > Note: A transformer is a type of artificial intelligence model that learns to understand and generate human-like text by analyzing patterns in large amounts of text data.
+
+**1.2 RAG**
+
