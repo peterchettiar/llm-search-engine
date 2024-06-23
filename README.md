@@ -1,6 +1,6 @@
 # LLM Zoomcamp pre-course workshop 2: Implement a Search Engine
 
-As the title suggests, this repo captures the content as well as code walkthrough from the workshop conducted by [datatalks.club](https://datatalks.club/). This session is more of a taster into the actual course [llm-zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) for those interested in Large Language Models (LLMs). Enough chit-chat, let's dive into the content and the video link for the workshop is [here](https://www.youtube.com/watch?v=nMrGK5QgPVE).
+As the title suggests, this repo captures the content as well as code walkthrough from the workshop conducted by [datatalks.club](https://datatalks.club/). This session is more of a taster into the actual course [llm-zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) for those interested in Large Language Models (LLMs). Actually, this would be pretty useful in the first week of the course as the instructor goes through the materials quite briefly. Hence, it would be advisable to go through the pre-course thoroughly. Enough chit-chat, let's dive into the content and the video link for the workshop is [here](https://www.youtube.com/watch?v=nMrGK5QgPVE).
 
 ## 1. Introduction to LLM and RAG
 
