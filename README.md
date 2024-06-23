@@ -13,6 +13,7 @@ LLMs are an instance of a foundation model, i.e. models that are pre-trained on 
 LLMs are also among the biggest models when it comes to parameter count. For example, OpenAI ChatGPT-3 model has about a 175 billion parameters. That's insane but necessary for making the product more adaptable. Parameter is a value the model can change independently as it learns, and the more parameters a model has, the more complex it can be.
 
 So how do they work? - LLMs can be said to be made of three things:
+
 1. Data - Large amounts of text data used as inputs into LLMs
 2. Architecture - As for architecture this is a neural network and for GPT that is a `transformer` (transformer architecture enables the model to handle sequences of data as they are designed to understand the context of each word in a sentence)
 3. Training - The aforementioned transformer architecture is trained on the large amounts of data used as input, and consquentially the model learns to predict the next word in a sentence
@@ -25,3 +26,4 @@ The image above is a good representation of how the ChatGPT-3 operates; you inpu
 
 **1.2 RAG**
 
+RAG stands for Retrieval-Augmentation Generation
