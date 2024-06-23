@@ -1,6 +1,6 @@
 # LLM Zoomcamp pre-course workshop 2: Implement a Search Engine
 
-As the title suggests, this repo captures the content as well as code walkthrough from the workshop conducted by [datatalks.club](https://datatalks.club/). This session is more of a taster into the actual course [llm-zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) for those interested in Large Language Models (LLMs). Actually, this would be pretty useful in the first week of the course as the instructor goes through the materials quite briefly. Hence, it would be advisable to go through the pre-course thoroughly. Enough chit-chat, let's dive into the content and the video link for the workshop is [here](https://www.youtube.com/watch?v=nMrGK5QgPVE).
+As the title suggests, this repo captures the content as well as code walkthrough from the workshop conducted by [datatalks.club](https://datatalks.club/). This session is more of a taster into the actual course [llm-zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) for those interested in Large Language Models (LLMs). Actually, this would be pretty useful in the first week of the course as the instructor goes through the materials quite briefly. Hence, it would be advisable to go through the pre-course thoroughly. Enough chit-chat, let's dive into the content, and the video link for the workshop is [here](https://www.youtube.com/watch?v=nMrGK5QgPVE).
 
 ## 1. Introduction to LLM and RAG
 
@@ -15,7 +15,7 @@ LLMs are also among the biggest models when it comes to parameter count. For exa
 So how do they work? - LLMs can be said to be made of three things:
 
 1. Data - Large amounts of text data used as inputs into LLMs
-2. Architecture - As for architecture this is a neural network and for GPT that is a `transformer` (transformer architecture enables the model to handle sequences of data as they are designed to understand the context of each word in a sentence)
+2. Architecture - As for architecture this is a neural network, and for GPT that is a `transformer` (transformer architecture enables the model to handle sequences of data as they are designed to understand the context of each word in a sentence)
 3. Training - The aforementioned transformer architecture is trained on the large amounts of data used as input, and consquentially the model learns to predict the next word in a sentence
 
 ![image](https://github.com/peterchettiar/llm-search-engine/assets/89821181/a917fa0d-4b5d-40ef-ab95-5a4a214b2b69)
@@ -26,4 +26,6 @@ The image above is a good representation of how the ChatGPT-3 operates; you inpu
 
 **1.2 RAG**
 
-RAG stands for Retrieval-Augmentation Generation
+RAG stands for Retrieval-Augmentation Generation which is a technique that supplements text generation with information from private or proprietary data sources. The main purpose of having a RAG model in place together with a LLM is so that the relevance of the search experience can be improved. The RAG model adds context from various data sources to complement the original knowledge base of the LLM. This method allows the responses from the LLM to be more accurate and a generally faster response.
+
+Following is a good visual representation of the implementation and orchestration of RAG:
