@@ -32,7 +32,7 @@ Following is a good visual representation of the implementation and orchestratio
 
 ![image](https://github.com/peterchettiar/llm-search-engine/assets/89821181/1df01240-c487-4ef3-99f4-d16157b8175c)
 
-## 1. Preparing the environment
+## 2. Preparing the environment
 
 In the workshop, we'll use Github Codespaces, but you can use any env
 
@@ -76,7 +76,7 @@ df = pd.DataFrame(documents, columns=['course', 'section', 'question', 'text'])
 df.head()
 ```
 
-## 2. Basics of Text Search
+## 3. Basics of Text Search
 
 - **Information Retrieval** - The process of obtaining relevant information from large datasets based on user queries.
 - **Vector Spaces** - A mathematical representation where text is converted into vectors (points in space) allowing for quantitative comparison.
